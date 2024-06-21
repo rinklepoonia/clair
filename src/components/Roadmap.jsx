@@ -13,7 +13,7 @@ function Roadmap() {
         <h3 className='ff_manrope fw-semibold text48_2xl lh_57 color_white text-center pt-xxl-5 mt-xl-3 mt_16 mb-xl-0 mb-lg-5 mb-4 neg_margin mt_50'>Roadmap</h3>
         <div className='d-flex justify-content-center gap-3 flex-wrap'>
           <div className='position_absolute pos_rodmap_box1'>
-            <div className="rodmapBox padding_box1">
+            <div className="rodmapBox padding_box1 grident_radius">
               <p className='ff_manrope fw-medium text32_lg lh_48 color_white ps-2'>Phase 1</p>
               <ul>
                 <li className='ff_manrope fw-medium text16_sm lh_24 color_gryWhite mb-2 text_nowrap_rodmap'>Team Recruitment</li>
@@ -28,7 +28,7 @@ function Roadmap() {
             </div>
           </div>
           <div className='position_absolute pos_rodmap_box2'>
-            <div className="rodmapBox padding_box2">
+            <div className="rodmapBox padding_box2 grident_radius">
               <p className='ff_manrope fw-medium text32_lg lh_48 color_white ps-2'>Phase 1</p>
               <ul className=''>
                 <li className='ff_manrope fw-medium text16_sm lh_24 color_gryWhite mb-2 text_nowrap_rodmap'>Official Launch</li>
@@ -43,7 +43,7 @@ function Roadmap() {
             </div>
           </div>
           <div className='position_absolute pos_rodmap_box3'>
-            <div className="rodmapBox padding_box3">
+            <div className="rodmapBox padding_box3 grident_radius">
               <p className='ff_manrope fw-medium text32_lg lh_48 color_white ps-2'>Phase 1</p>
               <ul className=''>
                 <li className='ff_manrope fw-medium text16_sm lh_24 color_gryWhite mb-2 text_nowrap_rodmap'>Burns (5% quarterly)</li>
