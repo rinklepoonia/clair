@@ -23,7 +23,7 @@ function App() {
     AOS.refresh();
   }, []);
   return (
-    <div className='max_w_1920 mx-auto'>
+    <div className='max_w_1920 mx-auto overflow-x-hidden'>
       <HeroSection />
       <TimerBox />
       <Timersection />
