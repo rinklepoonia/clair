@@ -8,13 +8,16 @@ import logo3 from '../assets/images/svg/eth-3-logo.svg'
 import logo4 from '../assets/images/svg/4-logo.svg'
 import Watchimg from '../assets/images/svg/timer-svg.svg'
 import timerDotes from '../assets/images/svg/timer-dotes.svg'
+import rangeSlider from '../assets/images/png/range-slider-img.png'
+import yellowRange from '../assets/images/png/range-yellow-arrow.png'
+import whiteRange from '../assets/images/png/range-white-arrow.png'
 
 function TimerBox() {
-    const [sliderValue, setSliderValue] = useState(0);
+    // const [sliderValue, setSliderValue] = useState(0);
 
-    const handleSliderChange = (e) => {
-        setSliderValue(e.target.value);
-    };
+    // const handleSliderChange = (e) => {
+    //     setSliderValue(e.target.value);
+    // };
     const [timeInSeconds, setTimeInSeconds] = useState(
         parseInt(localStorage.getItem('timeInSeconds')) || 0
     );
@@ -61,31 +64,36 @@ function TimerBox() {
                                     </div>
                                 </div>
                                 <div className='d-flex align-items-center justify_content_center gap-3 mt-3 mb-4 pb-lg-2 pb-0'>
-                                    <div className='Icon_box bg_grey d-flex justify-content-center align-items-center'><img src={dollerLogo} alt="dollerLogo" /></div>
-                                    <div className='Icon_box bg_grey d-flex justify-content-center align-items-center'><img src={tlogo} alt="tlogo" /></div>
-                                    <div className='Icon_box bg_grey d-flex justify-content-center align-items-center'><img src={logo3} alt="logo3" /></div>
-                                    <div className='Icon_box bg_grey d-flex justify-content-center align-items-center'><img src={logo4} alt="logo4" /></div>
+                                    <a href='' className='Icon_box bg_grey d-flex justify-content-center align-items-center'><img src={dollerLogo} alt="dollerLogo" /></a>
+                                    <a href='' className='Icon_box bg_grey d-flex justify-content-center align-items-center'><img src={tlogo} alt="tlogo" /></a>
+                                    <a href='https://ethereum.org/en/' target='_blank' className='Icon_box bg_grey d-flex justify-content-center align-items-center'><img src={logo3} alt="logo3" /></a>
+                                    <a href='' className='Icon_box bg_grey d-flex justify-content-center align-items-center'><img src={logo4} alt="logo4" /></a>
                                 </div>
                                 <div className='d-flex justify_content_center mb-lg-0 mb-3'><button className='ff_manrope fw-bold text16_sm lh_24 color_lightblack bg_yellow btn_modification max_w_254 w-100'>Buy Now</button></div>
                             </Col>
                             <Col lg={7}>
                                 <div className='d-flex justify-content-between'>
-                                    <div className='blank'>
+                                    <div className='ps-sm-3'>
                                         <p className='ff_manrope fw-normal text16_sm lh_24 color_gryWhite mb-1'>Tokens are Sold</p>
-                                        <p className='ff_manrope fw-bold text16_sm lh_24 color_yellow'>{sliderValue}</p>
+                                        <p className='ff_manrope fw-bold text16_sm lh_24 color_yellow'>98,212,738</p>
                                     </div>
-                                    <div className='blank'>
+                                    <div className='pe-sm-5'>
                                         <p className='ff_manrope fw-normal text16_sm lh_24 color_gryWhite mb-1'>Tokens Remaining</p>
                                         <p className='ff_manrope fw-bold text16_sm lh_24 color_white'>80,212,738</p>
                                     </div>
                                 </div>
-                                <Form.Range
+                                <div className='position-relative'>
+                                    <img className='max_w_404 w-100' src={rangeSlider} alt="rangeSlider" />
+                                    <div className='position-absolute pos_yellowRange_line'><img className='max_w_38' src={yellowRange} alt="yellowRange" /></div>
+                                    <div className='position-absolute pos_WhiteRange_line'><img className='max_w_38' src={whiteRange} alt="whiteRange" /></div>
+                                </div>
+                                {/* <Form.Range
                                     value={sliderValue}
                                     name='hello'
                                     onChange={handleSliderChange}
                                     min={0}
                                     max={98212738}
-                                    className="custam_slider" />
+                                    className="custam_slider" /> */}
                                 <p className='ff_manrope fw-normal text14_xsm lh_21 color_lightGrey mt-1 mb-3'>Purchase $Clair fast until the price increase.</p>
                                 <div className='d-flex justify-content-sm-between justify-content-center align-items-center flex-wrap gap-4'>
                                     <div className='d-flex gap-2 align-items-center'>

@@ -75,24 +75,24 @@ function Secure() {
                     <Col lg={6} className='col-12'>
                         <div className="slider_box grident_radius z-1">
                             <Slider className='overflow- x-hidden' {...settings}>
-                                <div>
+                                <a href='https://www.coinbase.com/en-gb/' target='_blank'>
                                     <img className='w-100 max_w_267' src={sliderImg1} alt="sliderImg1" />
-                                </div>
-                                <div>
+                                </a>
+                                <a href=''>
                                     <img className='w-100 max_w_267' src={sliderImg2} alt="sliderImg2" />
-                                </div>
-                                <div>
+                                </a>
+                                <a href='https://www.kucoin.com/' target='_blank'>
                                     <img className='w-100 max_w_267' src={sliderImg3} alt="sliderImg3" />
-                                </div>
-                                <div>
+                                </a>
+                                <a href=''>
                                     <img className='w-100 max_w_267' src={sliderImg4} alt="sliderImg4" />
-                                </div>
-                                <div>
+                                </a>
+                                <a href='https://uniswap.org/' target='_blank'>
                                     <img className='w-100 max_w_267' src={sliderImg5} alt="sliderImg5" />
-                                </div>
-                                <div>
+                                </a>
+                                <a href='https://www.coingecko.com/' target='_blank'>
                                     <img className='w-100 max_w_267' src={sliderImg6} alt="sliderImg6" />
-                                </div>
+                                </a>
                             </Slider>
                             <div className='d-lg-flex gap-3 mt-4 d-none'>
                                 <div className='slider_border1'></div>
