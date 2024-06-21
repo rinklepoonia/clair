@@ -60,7 +60,7 @@ function Secure() {
                             <p className='ff_manrope fw-normal text20_md lh_30 color_gryWhite mb-lg-2 mb-0 text_center'>Rest easy knowing that $CLAIR is </p>
                             <p className='ff_manrope fw-semibold text32_lg lh_sm_48 lh_30 color_yellow mb-lg-2 mb-0 text_center'>Fully Audited and 100% Secure.</p>
                             <p className='ff_manrope fw-normal text20_md lh_30 color_gryWhite mb-md-4 mb-3 pb-lg-2 pb-0 text_center'>Zero Room for Rug Pulls: Invest with Confidence.</p>
-                            <div className='text_center'><button className='ff_manrope fw-bold text16_sm lh_24 color_lightblack bg_yellow btn_modification'>Audit</button></div>
+                            <div className='text_center'><button aria-label='audit' className='ff_manrope fw-bold text16_sm lh_24 color_lightblack bg_yellow btn_modification'>Audit</button></div>
                         </div>
                     </Col>
                 </Row>

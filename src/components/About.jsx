@@ -11,7 +11,7 @@ function About() {
                 <p data-aos="fade-up" className='ff_manrope fw-normal text16_sm lh_24 color_lightGrey max_w_776 text-center mx-auto mb-md-2 mb-1 pb-lg-1 pb-0'>As you navigate through the avatars, you'll find each one has a unique voice, bringing laughter and a touch of sarcasm to the otherwise serious discussions in the crypto space.</p>
                 <p data-aos="fade-up" className='ff_manrope fw-normal text16_sm lh_24 color_lightGrey max_w_776 text-center mx-auto mb-md-2 mb-1 pb-lg-1 pb-0'>In a landscape where tensions can run high, Baby Sinclair’s memes serve as a reminder that, sometimes, the best way to confront challenges is with a good laugh.</p>
                 <p data-aos="fade-up" className='ff_manrope fw-normal text16_sm lh_24 color_lightGrey max_w_856 text-center mx-auto mb-md-2 mb-1 pb-lg-1 pb-0'>In this meme-driven world, laughter is not just a reaction; it's a powerful tool for change, and Baby Sinclair is wielding it with style. The bad players better watch out; the crypto defender is here, armed with memes and ready to act.</p>
-                <div data-aos="fade-up" className='text-center'><button className='ff_manrope fw-bold text16_sm lh_24 bg_yellow btn_modification mt-lg-4 mt-md-3 mt-2'>Learn More</button></div>
+                <div data-aos="fade-up" className='text-center'><button aria-label='learn-more' className='ff_manrope fw-bold text16_sm lh_24 bg_yellow btn_modification mt-lg-4 mt-md-3 mt-2'>Learn More</button></div>
             </Container>
         </div>
     )

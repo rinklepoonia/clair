@@ -63,7 +63,7 @@ function TimerBox() {
                                     <a href='https://ethereum.org/en/' target='_blank' className='Icon_box bg_grey d-flex justify-content-center align-items-center'><img src={logo3} alt="logo3" /></a>
                                     <a href='' className='Icon_box bg_grey d-flex justify-content-center align-items-center'><img src={logo4} alt="logo4" /></a>
                                 </div>
-                                <div className='d-flex justify_content_center mb-lg-0 mb-3'><button className='ff_manrope fw-bold text16_sm lh_24 color_lightblack bg_yellow btn_modification max_w_254 w-100'>Buy Now</button></div>
+                                <div className='d-flex justify_content_center mb-lg-0 mb-3'><button aria-label='buy-now' className='ff_manrope fw-bold text16_sm lh_24 color_lightblack bg_yellow btn_modification max_w_254 w-100'>Buy Now</button></div>
                             </Col>
                             <Col lg={7}>
                                 <div className='d-flex justify-content-between'>
