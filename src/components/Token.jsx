@@ -12,7 +12,7 @@ function Token() {
             <div className='heroEllip_property position-absolute bottom-0 end-0 z-3'></div>
             <Container>
                 <Row className='flex-lg-row flex-column-reverse'>
-                    <Col lg={5} className='d-flex justify-content-center mt-lg-0 mt-3'>
+                    <Col data-aos="fade-right" lg={5} className='d-flex justify-content-center mt-lg-0 mt-3'>
                         <div className='blank'>
                             <h3 className='ff_manrope fw-semibold text48_2xl lh_md_57 lh_36 color_white mb-lg-3 mb-0'>Tokenomics</h3>
                             <div className='d-flex gap-3 mb-lg-4 mb-md-2 mb-2'>
@@ -65,12 +65,12 @@ function Token() {
                             </div>
                         </div>
                     </Col>
-                    <Col lg={7} className='d-flex justify-content-center'>
+                    <Col data-aos="fade-left" lg={7} className='d-flex justify-content-center'>
                         <img className='max_w_lg_491 max_w_235' src={tokenImg} alt="tokenImg" />
                     </Col>
                 </Row>
                 <div className='d-flex justify-content-center'>
-                    <div className='token_sinclair_box mt_lg_60 mt_35 z-1'>
+                    <div data-aos="flip-up" className='token_sinclair_box mt_lg_60 mt_35 z-1'>
                         <Row className='align-items-center justify-content-between'>
                             <Col lg={4} className='col-12 d-flex justify-content-center'>
                                 <div className='d-flex gap-4 align-items-center mb-lg-0 mb-2'>

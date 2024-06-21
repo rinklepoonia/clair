@@ -11,14 +11,14 @@ function Footer() {
                     the crypto defender is here, armed with memes and ready to act.</p>
                 <nav>
                     <ul className='d-flex flex-wrap ps-0 mb-0 gap_lg_32 gap_sm_20 gap_15 justify-content-center'>
-                        <li className='list_style_none'><a href="" className='ff_manrope fw-medium text16_sm lh_24 color_lightWhite'>About</a></li>
-                        <li className='list_style_none'><a href="" className='ff_manrope fw-medium text16_sm lh_24 color_lightWhite'>Tokenomics</a></li>
-                        <li className='list_style_none'><a href="" className='ff_manrope fw-medium text16_sm lh_24 color_lightWhite'>Audit</a></li>
-                        <li className='list_style_none'><a href="" className='ff_manrope fw-medium text16_sm lh_24 color_lightWhite'>Roadmap</a></li>
-                        <li className='list_style_none'><a href="" className='ff_manrope fw-medium text16_sm lh_24 color_lightWhite text-nowrap'>White Paper</a></li>
-                        <li className='list_style_none'><a href="" className='ff_manrope fw-medium text16_sm lh_24 color_lightWhite'>Privacy </a></li>
-                        <li className='list_style_none'><a href="" className='ff_manrope fw-medium text16_sm lh_24 color_lightWhite'>Cookies</a></li>
-                        <li className='list_style_none'><a href="" className='ff_manrope fw-medium text16_sm lh_24 color_lightWhite'>Disclaimer</a></li>
+                        <li className='list_style_none'><a href="#about" className='ff_manrope fw-medium text16_sm lh_24 color_lightWhite nav_underline'>About</a></li>
+                        <li className='list_style_none'><a href="#token" className='ff_manrope fw-medium text16_sm lh_24 color_lightWhite nav_underline'>Tokenomics</a></li>
+                        <li className='list_style_none'><a href="#audit" className='ff_manrope fw-medium text16_sm lh_24 color_lightWhite nav_underline'>Audit</a></li>
+                        <li className='list_style_none'><a href="#roadmap" className='ff_manrope fw-medium text16_sm lh_24 color_lightWhite nav_underline'>Roadmap</a></li>
+                        <li className='list_style_none'><a href="#whitepaper" className='ff_manrope fw-medium text16_sm lh_24 color_lightWhite text-nowrap nav_underline'>White Paper</a></li>
+                        <li className='list_style_none'><a href="" className='ff_manrope fw-medium text16_sm lh_24 color_lightWhite nav_underline'>Privacy </a></li>
+                        <li className='list_style_none'><a href="" className='ff_manrope fw-medium text16_sm lh_24 color_lightWhite nav_underline'>Cookies</a></li>
+                        <li className='list_style_none'><a href="" className='ff_manrope fw-medium text16_sm lh_24 color_lightWhite nav_underline'>Disclaimer</a></li>
                     </ul>
                 </nav>
                 <div className='border_bottom_footer mb-lg-4 mb-2 mt-lg-5 mt-3'></div>

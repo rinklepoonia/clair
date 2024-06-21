@@ -27,11 +27,11 @@ function HeroSection() {
               <p className='ff_manrope fw-semibold text32_lg lh_48 color_yellow mb-0'>$CLAIR</p></a>
             <div className='d-flex align-items-center gap_60'>
               <ul className={`${nav ? "end-0" : "right_100"} mobile_view d-flex ps-0 mb-0 gap_32`}>
-                <li className='list_style_none'><a href="#about" onClick={() => setnav(!nav)} className='ff_manrope fw_500 text16_sm lh_24 color_gryWhite nav_links transition'>About</a></li>
-                <li className='list_style_none'><a href="#token" onClick={() => setnav(!nav)} className='ff_manrope fw_500 text16_sm lh_24 color_gryWhite nav_links transition'>Tokenomics</a></li>
-                <li className='list_style_none'><a href="#audit" onClick={() => setnav(!nav)} className='ff_manrope fw_500 text16_sm lh_24 color_gryWhite nav_links transition'>Audit</a></li>
-                <li className='list_style_none'><a href="#roadmap" onClick={() => setnav(!nav)} className='ff_manrope fw_500 text16_sm lh_24 color_gryWhite nav_links transition'>Roadmap</a></li>
-                <li className='list_style_none'><a href="#whitepaper" onClick={() => setnav(!nav)} className='ff_manrope fw_500 text16_sm lh_24 color_gryWhite nav_links transition'>White Paper</a></li>
+                <li className='list_style_none'><a href="#about" onClick={() => setnav(!nav)} className='ff_manrope fw_500 text16_sm lh_24 color_gryWhite nav_links transition nav_underline'>About</a></li>
+                <li className='list_style_none'><a href="#token" onClick={() => setnav(!nav)} className='ff_manrope fw_500 text16_sm lh_24 color_gryWhite nav_links transition nav_underline'>Tokenomics</a></li>
+                <li className='list_style_none'><a href="#audit" onClick={() => setnav(!nav)} className='ff_manrope fw_500 text16_sm lh_24 color_gryWhite nav_links transition nav_underline'>Audit</a></li>
+                <li className='list_style_none'><a href="#roadmap" onClick={() => setnav(!nav)} className='ff_manrope fw_500 text16_sm lh_24 color_gryWhite nav_links transition nav_underline'>Roadmap</a></li>
+                <li className='list_style_none'><a href="#whitepaper" onClick={() => setnav(!nav)} className='ff_manrope fw_500 text16_sm lh_24 color_gryWhite nav_links transition nav_underline'>White Paper</a></li>
               </ul>
               <div className='d-flex align-items-center gap-2 d-sm-block d-none'>
                 <img className='w_30' src={navImg} alt="navImg" />

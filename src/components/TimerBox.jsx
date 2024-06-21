@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
 import Form from 'react-bootstrap/Form';
 import { Linesvg } from '../components/Icon'
@@ -15,11 +15,38 @@ function TimerBox() {
     const handleSliderChange = (e) => {
         setSliderValue(e.target.value);
     };
+    const [timeInSeconds, setTimeInSeconds] = useState(
+        parseInt(localStorage.getItem('timeInSeconds')) || 0
+    );
+
+    useEffect(() => {
+        const interval = setInterval(() => {
+            setTimeInSeconds(prevTime => {
+                const newTime = prevTime + 1;
+                localStorage.setItem('timeInSeconds', newTime.toString());
+                return newTime;
+            });
+        }, 1000);
+
+        return () => clearInterval(interval);
+    }, []);
+
+    useEffect(() => {
+        return () => {
+            localStorage.removeItem('timeInSeconds');
+        };
+    }, []);
+
+    const days = Math.floor(timeInSeconds / (3600 * 24));
+    const hours = Math.floor((timeInSeconds % (3600 * 24)) / 3600);
+    const minutes = Math.floor((timeInSeconds % 3600) / 60);
+    const seconds = timeInSeconds % 60;
+
     return (
         <div className='position-relative pt-xl-5 pt-4'>
             <Container>
                 <div className='d-flex justify-content-center'>
-                    <div className='timeBox'>
+                    <div data-aos="zoom-in" className='timeBox grident_radius position-relative z-3'>
                         <Row className='justify-content-between'>
                             <Col lg={5} className='col-12' >
                                 <div className='d-flex max_w_lg_254 d-flex justify-content-between align-items-center'>
@@ -58,7 +85,7 @@ function TimerBox() {
                                     onChange={handleSliderChange}
                                     min={0}
                                     max={98212738}
-                                    className="custom-slider" />
+                                    className="custam_slider" />
                                 <p className='ff_manrope fw-normal text14_xsm lh_21 color_lightGrey mt-1 mb-3'>Purchase $Clair fast until the price increase.</p>
                                 <div className='d-flex justify-content-sm-between justify-content-center align-items-center flex-wrap gap-4'>
                                     <div className='d-flex gap-2 align-items-center'>
@@ -71,7 +98,7 @@ function TimerBox() {
                                             <p className='ff_manrope fw-normal text14_xsm lh_21 color_lightGrey mb-1'>Days</p>
                                             <div className='d-flex gap-2'>
                                                 <div className='timeing_box d-flex justify-content-center align-items-center'>
-                                                    <p className='ff_manropw fw-normal text24_2md lh_36 color_white mb-0'>00</p>
+                                                    <p className='ff_manropw fw-normal text24_2md lh_36 color_white mb-0'>{days} </p>
                                                 </div>
                                                 <img src={timerDotes} alt="timerDotes" />
                                             </div>
@@ -80,7 +107,7 @@ function TimerBox() {
                                             <p className='ff_manrope fw-normal text14_xsm lh_21 color_lightGrey mb-1'>Hours</p>
                                             <div className='d-flex gap-2'>
                                                 <div className='timeing_box d-flex justify-content-center align-items-center'>
-                                                    <p className='ff_manropw fw-normal text24_2md lh_36 color_white mb-0'>12</p>
+                                                    <p className='ff_manropw fw-normal text24_2md lh_36 color_white mb-0'>{hours}</p>
                                                 </div>
                                                 <img src={timerDotes} alt="timerDotes" />
                                             </div>
@@ -89,7 +116,7 @@ function TimerBox() {
                                             <p className='ff_manrope fw-normal text14_xsm lh_21 color_lightGrey mb-1'>Mins</p>
                                             <div className='d-flex gap-2'>
                                                 <div className='timeing_box d-flex justify-content-center align-items-center'>
-                                                    <p className='ff_manropw fw-normal text24_2md lh_36 color_white mb-0'>46</p>
+                                                    <p className='ff_manropw fw-normal text24_2md lh_36 color_white mb-0'>{minutes}</p>
                                                 </div>
                                                 <img src={timerDotes} alt="timerDotes" />
                                             </div>
@@ -97,9 +124,8 @@ function TimerBox() {
                                         <div>
                                             <p className='ff_manrope fw-normal text14_xsm lh_21 color_lightGrey mb-1'>Secs</p>
                                             <div className='timeing_box d-flex justify-content-center align-items-center'>
-                                                <p className='ff_manropw fw-normal text24_2md lh_36 color_white mb-0'>19</p>
+                                                <p className='ff_manropw fw-normal text24_2md lh_36 color_white mb-0'>{seconds}</p>
                                             </div>
-
                                         </div>
                                     </div>
                                 </div>
@@ -110,7 +136,7 @@ function TimerBox() {
             </Container>
             <div className='heroEllip_property position-absolute pos_timer_ellip end-0 d-lg-block d-none'></div>
         </div>
-    )
+    );
 }
 
-export default TimerBox
+export default TimerBox;

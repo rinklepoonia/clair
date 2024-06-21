@@ -52,10 +52,10 @@ function Secure() {
             <div className='heroEllip_property position-absolute bottom-0 end-0 z-1'></div>
             <Container>
                 <Row className='align-items-center'>
-                    <Col lg={5} className='col-12 d-flex justify-content-center mb-lg-0 mb-3'>
+                    <Col data-aos="fade-right" lg={5} className='col-12 d-flex justify-content-center mb-lg-0 mb-3'>
                         <img className='max_w_lg_244 max_w_170' src={secureImg} alt="secureImg" />
                     </Col>
-                    <Col lg={7} className='col-12 d-flex align_items_center justify_content_center'>
+                    <Col data-aos="fade-left" lg={7} className='col-12 d-flex align_items_center justify_content_center'>
                         <div className='blank'>
                             <p className='ff_manrope fw-normal text20_md lh_30 color_gryWhite mb-lg-2 mb-0 text_center'>Rest easy knowing that $CLAIR is </p>
                             <p className='ff_manrope fw-semibold text32_lg lh_sm_48 lh_30 color_yellow mb-lg-2 mb-0 text_center'>Fully Audited and 100% Secure.</p>
@@ -66,14 +66,14 @@ function Secure() {
                 </Row>
                 <div className='border_bottom_secure'></div>
                 <Row className='pt_lg_61 pt_15'>
-                    <Col lg={6} className='col-12 d-flex justify-content-center align-items-center'>
+                    <Col data-aos="fade-right" lg={6} className='col-12 d-flex justify-content-center align-items-center'>
                         <div className='blank'>
                             <p className='ff_manrope fw-semibold text32_lg lh_48 color_white mb-lg-3 mb-2 text_center'>Listing on <span className='color_yellow'>Major Exchanges</span></p>
                             <p className='ff_marope fw-normal text20_md lh_30 color_gryWhite max_w_475 text_center'>Baby Sinclair’s Team is in action to secure the <span className='color_yellow'>$CLAIR</span> listing on major exchanges. Exciting milestones ahead.</p>
                         </div>
                     </Col>
                     <Col lg={6} className='col-12'>
-                        <div className="slider_box">
+                        <div className="slider_box grident_radius z-1">
                             <Slider className='overflow- x-hidden' {...settings}>
                                 <div>
                                     <img className='w-100 max_w_267' src={sliderImg1} alt="sliderImg1" />
