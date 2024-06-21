@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
-import Form from 'react-bootstrap/Form';
 import { Linesvg } from '../components/Icon'
 import dollerLogo from '../assets/images/svg/doller-logo.svg'
 import tlogo from '../assets/images/svg/t-logo.svg'
@@ -13,11 +12,6 @@ import yellowRange from '../assets/images/png/range-yellow-arrow.png'
 import whiteRange from '../assets/images/png/range-white-arrow.png'
 
 function TimerBox() {
-    // const [sliderValue, setSliderValue] = useState(0);
-
-    // const handleSliderChange = (e) => {
-    //     setSliderValue(e.target.value);
-    // };
     const [timeInSeconds, setTimeInSeconds] = useState(
         parseInt(localStorage.getItem('timeInSeconds')) || 0
     );
@@ -87,13 +81,6 @@ function TimerBox() {
                                     <div className='position-absolute pos_yellowRange_line'><img className='max_w_38' src={yellowRange} alt="yellowRange" /></div>
                                     <div className='position-absolute pos_WhiteRange_line'><img className='max_w_38' src={whiteRange} alt="whiteRange" /></div>
                                 </div>
-                                {/* <Form.Range
-                                    value={sliderValue}
-                                    name='hello'
-                                    onChange={handleSliderChange}
-                                    min={0}
-                                    max={98212738}
-                                    className="custam_slider" /> */}
                                 <p className='ff_manrope fw-normal text14_xsm lh_21 color_lightGrey mt-1 mb-3'>Purchase $Clair fast until the price increase.</p>
                                 <div className='d-flex justify-content-sm-between justify-content-center align-items-center flex-wrap gap-4'>
                                     <div className='d-flex gap-2 align-items-center'>

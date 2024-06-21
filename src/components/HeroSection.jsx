@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 import { Container } from 'react-bootstrap'
-import { Link } from 'react-bootstrap'
 import pageLogo from '../assets/images/png/page-logo.png'
 import HeroCartoon from '../assets/images/png/hero-group-cartoon.png'
 import heroBottomLayer from '../assets/images/png/hero-bottam-layer.png'
