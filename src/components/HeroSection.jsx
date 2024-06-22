@@ -63,7 +63,7 @@ function HeroSection() {
           </div>
           <img src={HeroCartoon}
             alt="HeroCartoon"
-            className='max_w_810 w-100 h_427' />
+            className='max_w_810 max_w_330 w-100 h_427' />
         </div>
       </Container>
       <div className='position-absolute end-0 heroBlackLayer_pos w-100 d-lg-block d-none'>

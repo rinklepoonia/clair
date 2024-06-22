@@ -172,6 +172,9 @@
     max-width: 157px;
 }
 
+/* .max_w_330 {
+    max-width: 330px;
+} */
 .max_w_810 {
     max-width: 810px;
 }
@@ -211,7 +214,7 @@
 
 .btn_modification {
     border: 1px solid transparent;
-    padding: 12px 24px;
+    padding: 8px 14px;
     border-radius: 10px;
 }
 
@@ -885,6 +888,14 @@
         --fs-lg: 32px;
     }
 
+    /* .max_w_810 {
+        max-width: 810px;
+    } */
+
+    .btn_modification {
+        padding: 12px 24px;
+    }
+
     .lh_md_57 {
         line-height: 57.6px;
     }
@@ -901,10 +912,6 @@
     .timeBox {
         padding: 40px;
     }
-
-    /* .form-range {
-        width: 404px !important;
-    } */
 
     .SmartContract_padding {
         padding: 128px 0 139px 0;
