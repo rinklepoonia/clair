@@ -657,7 +657,8 @@
 .socialSection_padding {
     padding-top: 5px;
 }
-.IconHover:hover{
+
+.IconHover:hover {
     transform: translateY(-5px);
 }
 
@@ -696,9 +697,10 @@
 .footer_padding {
     padding-top: 20px;
 }
-.footer_bg_img{
-background-image: url(./assets/images/webp/footer-bg-img.webp);
-background-size: 100% 100%;
+
+.footer_bg_img {
+    background-image: url(./assets/images/webp/footer-bg-img.webp);
+    background-size: 100% 100%;
 }
 
 .border_bottom_footer {
@@ -921,6 +923,10 @@ background-size: 100% 100%;
     :root {
         --fs-2xl: 48px;
         --fs-3xl: 60px;
+    }
+
+    .h_427 {
+        height: 427px;
     }
 
     .gap_lg_32 {
