@@ -75,22 +75,22 @@ function Secure() {
                     <Col lg={6} className='col-12'>
                         <div className="slider_box grident_radius z-1">
                             <Slider className='overflow- x-hidden' {...settings}>
-                                <a href='https://www.coinbase.com/en-gb/' target='_blank'>
+                                <a href='https://www.coinbase.com/en-gb/' aria-label='sliderImg1' target='_blank'>
                                     <img className='w-100 max_w_267' src={sliderImg1} alt="sliderImg1" />
                                 </a>
-                                <a href=''>
+                                <a href='' aria-label='sliderImg2'>
                                     <img className='w-100 max_w_267' src={sliderImg2} alt="sliderImg2" />
                                 </a>
-                                <a href='https://www.kucoin.com/' target='_blank'>
+                                <a href='https://www.kucoin.com/' aria-label='sliderImg3' target='_blank'>
                                     <img className='w-100 max_w_267' src={sliderImg3} alt="sliderImg3" />
                                 </a>
-                                <a href=''>
+                                <a href='' aria-label='sliderImg4'>
                                     <img className='w-100 max_w_267' src={sliderImg4} alt="sliderImg4" />
                                 </a>
-                                <a href='https://uniswap.org/' target='_blank'>
+                                <a href='https://uniswap.org/' aria-label='sliderImg5' target='_blank'>
                                     <img className='w-100 max_w_267' src={sliderImg5} alt="sliderImg5" />
                                 </a>
-                                <a href='https://www.coingecko.com/' target='_blank'>
+                                <a href='https://www.coingecko.com/' aria-label='sliderImg6' target='_blank'>
                                     <img className='w-100 max_w_267' src={sliderImg6} alt="sliderImg6" />
                                 </a>
                             </Slider>

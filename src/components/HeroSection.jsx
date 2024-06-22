@@ -20,26 +20,26 @@ function HeroSection() {
       <nav className='h_100 d-flex justify-content-center align-items-center border_bottom nav_bg_color'>
         <Container>
           <div className='d-flex align-items-center justify-content-between'>
-            <a href="" className='d-flex align-items-center gap-2'>  <img src={pageLogo}
+            <a href="" aria-label='pagelogo' className='d-flex align-items-center gap-2'>  <img src={pageLogo}
               alt="pageLogo"
               className='max_w_47' />
               <p className='ff_manrope fw-semibold text32_lg lh_48 color_yellow mb-0'>$CLAIR</p></a>
             <div className='d-flex align-items-center gap_60'>
               <ul className={`${nav ? "end-0" : "right_100"} mobile_view d-flex ps-0 mb-0 gap_32`}>
-                <li className='list_style_none'><a href="#about" onClick={() => setnav(!nav)} className='ff_manrope fw_500 text16_sm lh_24 color_gryWhite nav_links transition nav_underline'>About</a></li>
-                <li className='list_style_none'><a href="#token" onClick={() => setnav(!nav)} className='ff_manrope fw_500 text16_sm lh_24 color_gryWhite nav_links transition nav_underline'>Tokenomics</a></li>
-                <li className='list_style_none'><a href="#audit" onClick={() => setnav(!nav)} className='ff_manrope fw_500 text16_sm lh_24 color_gryWhite nav_links transition nav_underline'>Audit</a></li>
-                <li className='list_style_none'><a href="#roadmap" onClick={() => setnav(!nav)} className='ff_manrope fw_500 text16_sm lh_24 color_gryWhite nav_links transition nav_underline'>Roadmap</a></li>
-                <li className='list_style_none'><a href="#whitepaper" onClick={() => setnav(!nav)} className='ff_manrope fw_500 text16_sm lh_24 color_gryWhite nav_links transition nav_underline'>White Paper</a></li>
+                <li className='list_style_none'><a href="#about" aria-label='about' onClick={() => setnav(!nav)} className='ff_manrope fw_500 text16_sm lh_24 color_gryWhite nav_links transition nav_underline'>About</a></li>
+                <li className='list_style_none'><a href="#token" aria-label='token' onClick={() => setnav(!nav)} className='ff_manrope fw_500 text16_sm lh_24 color_gryWhite nav_links transition nav_underline'>Tokenomics</a></li>
+                <li className='list_style_none'><a href="#audit" aria-label='audit' onClick={() => setnav(!nav)} className='ff_manrope fw_500 text16_sm lh_24 color_gryWhite nav_links transition nav_underline'>Audit</a></li>
+                <li className='list_style_none'><a href="#roadmap" aria-label='roadmap' onClick={() => setnav(!nav)} className='ff_manrope fw_500 text16_sm lh_24 color_gryWhite nav_links transition nav_underline'>Roadmap</a></li>
+                <li className='list_style_none'><a href="#whitepaper" aria-label='white' onClick={() => setnav(!nav)} className='ff_manrope fw_500 text16_sm lh_24 color_gryWhite nav_links transition nav_underline'>White Paper</a></li>
               </ul>
               <div className='d-flex align-items-center gap-2 d-sm-block d-none'>
                 <img className='w_30' src={navImg} alt="navImg" />
                 <div class="dropdown">
                   <span class="dropbtn"><Dropdown /></span>
                   <div class="dropdown-content">
-                    <a href="#" className='ff_manrope text16_sm color_black lh_21'>Link 1</a>
-                    <a href="#" className='ff_manrope text16_sm color_black lh_21'>Link 2</a>
-                    <a href="#" className='ff_manrope text16_sm color_black lh_21'>Link 3</a>
+                    <a href="#" aria-label='link1' className='ff_manrope text16_sm color_black lh_21'>Link 1</a>
+                    <a href="#" aria-label='link2' className='ff_manrope text16_sm color_black lh_21'>Link 2</a>
+                    <a href="#" aria-label='link3' className='ff_manrope text16_sm color_black lh_21'>Link 3</a>
                   </div>
                 </div>
               </div>
