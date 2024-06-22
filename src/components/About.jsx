@@ -1,6 +1,6 @@
 import React from 'react'
 import { Container } from 'react-bootstrap'
-import aboutghost from '../assets/images/png/scalir-ghost.png'
+import aboutghost from '../assets/images/webp/scalir-ghost.webp'
 
 function About() {
     return (

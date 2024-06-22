@@ -3,7 +3,7 @@ import { Container } from 'react-bootstrap'
 import { Discord } from '../components/Icon'
 import { Twitter } from '../components/Icon'
 import { Telegram } from '../components/Icon'
-import socialghost from '../assets/images/png/social-ghost.png'
+import socialghost from '../assets/images/webp/social-ghost.webp'
 
 
 function Socials() {

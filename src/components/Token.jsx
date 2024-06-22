@@ -1,10 +1,10 @@
 import React from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
-import Tokendot from '../assets/images/png/token-dot.png'
-import tokenImg from '../assets/images/png/token-img.png'
-import tokenCat from '../assets/images/png/token-cat.png'
-import tokenGhost from '../assets/images/png/token-ghost.png'
-import PlusImg from '../assets/images/png/plus-img.png'
+import Tokendot from '../assets/images/webp/token-dot.webp'
+import tokenImg from '../assets/images/webp/token-img.webp'
+import tokenCat from '../assets/images/webp/token-cat.webp'
+import tokenGhost from '../assets/images/webp/token-ghost.webp'
+import PlusImg from '../assets/images/webp/plus-img.webp'
 
 function Token() {
     return (

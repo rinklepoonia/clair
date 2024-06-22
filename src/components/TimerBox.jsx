@@ -7,9 +7,9 @@ import logo3 from '../assets/images/svg/eth-3-logo.svg'
 import logo4 from '../assets/images/svg/4-logo.svg'
 import Watchimg from '../assets/images/svg/timer-svg.svg'
 import timerDotes from '../assets/images/svg/timer-dotes.svg'
-import rangeSlider from '../assets/images/png/range-slider-img.png'
-import yellowRange from '../assets/images/png/range-yellow-arrow.png'
-import whiteRange from '../assets/images/png/range-white-arrow.png'
+import rangeSlider from '../assets/images/webp/range-slider-img.webp'
+import yellowRange from '../assets/images/webp/range-yellow-arrow.webp'
+import whiteRange from '../assets/images/webp/range-white-arrow.webp'
 
 function TimerBox() {
     const [timeInSeconds, setTimeInSeconds] = useState(

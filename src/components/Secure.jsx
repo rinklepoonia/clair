@@ -2,14 +2,14 @@ import React from 'react'
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
-import secureImg from '../assets/images/png/secure-img.png'
+import secureImg from '../assets/images/webp/secure-img.webp'
 import { Col, Container, Row } from 'react-bootstrap'
-import sliderImg1 from '../assets/images/png/slider1.png'
-import sliderImg2 from '../assets/images/png/slider2.png'
-import sliderImg3 from '../assets/images/png/slider3.png'
-import sliderImg4 from '../assets/images/png/slider4.png'
-import sliderImg5 from '../assets/images/png/slider5.png'
-import sliderImg6 from '../assets/images/png/slider6.png'
+import sliderImg1 from '../assets/images/webp/slider1.webp'
+import sliderImg2 from '../assets/images/webp/slider2.webp'
+import sliderImg3 from '../assets/images/webp/slider3.webp'
+import sliderImg4 from '../assets/images/webp/slider4.webp'
+import sliderImg5 from '../assets/images/webp/slider5.webp'
+import sliderImg6 from '../assets/images/webp/slider6.webp'
 
 function Secure() {
     var settings = {

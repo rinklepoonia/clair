@@ -9,7 +9,6 @@ import Socials from './components/Socials';
 import TimerBox from './components/TimerBox';
 import Token from './components/Token';
 import Roadmap from './components/Roadmap'
-import Timersection from './components/Timersection';
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from 'react';
@@ -26,7 +25,6 @@ function App() {
     <div className='max_w_1920 mx-auto overflow-x-hidden'>
       <HeroSection />
       <TimerBox />
-      <Timersection />
       <About />
       <Address />
       <Token />

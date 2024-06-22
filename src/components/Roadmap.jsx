@@ -1,6 +1,6 @@
 import React from 'react'
 import { Container } from 'react-bootstrap'
-import roadmapline from '../assets/images/png/rodamap-line.png'
+import roadmapline from '../assets/images/webp/rodamap-line.webp'
 import bulb1 from '../assets/images/svg/rodmap-bulb1.svg'
 import bulb2 from '../assets/images/svg/rodmap-blub2.svg'
 import bulb3 from '../assets/images/svg/rodmap-bulb3.svg'
