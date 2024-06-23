@@ -8,7 +8,7 @@ import PlusImg from '../assets/images/webp/plus-img.webp'
 
 function Token() {
     return (
-        <div id='token' className='tokenSection_padding neg_margin position-relative mt_45'>
+        <div id='token' className='token_bg_img tokenSection_padding neg_margin position-relative mt_45'>
             <div className='heroEllip_property position-absolute bottom-0 end-0 z-3'></div>
             <Container>
                 <Row className='flex-lg-row flex-column-reverse'>

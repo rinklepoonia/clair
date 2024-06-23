@@ -37,10 +37,9 @@ function HeroSection() {
                 <div class="dropdown">
                   <span class="dropbtn"><Dropdown /></span>
                   <div class="dropdown-content">
-                    <a href="#" aria-label='link1' className='ff_manrope text16_sm color_black lh_21'>Link 1</a>
-                    <a href="#" aria-label='link2' className='ff_manrope text16_sm color_black lh_21'>Link 2</a>
-                    <a href="#" aria-label='link3' className='ff_manrope text16_sm color_black lh_21'>Link 3</a>
-                  </div>
+                    <a href="#" aria-label='link1' className='ff_manrope text16_sm color_white lh_21'>English</a>
+                    <a href="#" aria-label='link2' className='ff_manrope text16_sm color_white lh_21'>Spanish</a>
+                  </div>  
                 </div>
               </div>
               <div className='menu d-lg-none z_6' onClick={() => setnav(!nav)}>

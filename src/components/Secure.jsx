@@ -3,6 +3,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import secureImg from '../assets/images/webp/secure-img.webp'
+import SecuareYellowImg from '../assets/images/webp/secure-img-1.webp'
 import { Col, Container, Row } from 'react-bootstrap'
 import sliderImg1 from '../assets/images/webp/slider1.webp'
 import sliderImg2 from '../assets/images/webp/slider2.webp'
@@ -53,7 +54,11 @@ function Secure() {
             <Container>
                 <Row className='align-items-center'>
                     <Col data-aos="fade-right" lg={6} className='col-12 d-flex justify-content-center mb-lg-0 mb-3'>
-                        <img className='max_w_lg_244 max_w_170' src={secureImg} alt="secureImg" />
+                        <div className='position-relative'>
+                            <img className='max_w_lg_244 max_w_170' src={SecuareYellowImg} alt="SecuareYellowImg" />
+                            <div className='position-absolute pos_secure_img'><img src={secureImg} alt="secureImg" /></div>
+                        </div>
+
                     </Col>
                     <Col data-aos="fade-left" lg={6} className='col-12 d-flex align_items_center justify_content_center'>
                         <div className='blank'>

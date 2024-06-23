@@ -89,34 +89,43 @@ function TimerBox() {
                                             <span className='d-lg-block'> increase in</span></p>
                                     </div>
                                     <div className='d-flex flex-wrap gap-2'>
-                                        <div>
+                                        <div className='d-flex flex-column align-items-center'>
                                             <p className='ff_manrope fw-normal text14_xsm lh_21 color_lightGrey mb-1'>Days</p>
                                             <div className='d-flex gap-2'>
                                                 <div className='timeing_box d-flex justify-content-center align-items-center'>
                                                     <p className='ff_manropw fw-normal text24_2md lh_36 color_white mb-0'>{days} </p>
                                                 </div>
-                                                <img src={timerDotes} alt="timerDotes" />
                                             </div>
                                         </div>
-                                        <div>
+                                        <div className='d-flex flex-column gap-2 justify-content-center mt-4'>
+                                            <span className='dotes d-inline-block'></span>
+                                            <span className='dotes d-inline-block'></span>
+                                        </div>
+                                        <div className='d-flex flex-column align-items-center'>
                                             <p className='ff_manrope fw-normal text14_xsm lh_21 color_lightGrey mb-1'>Hours</p>
                                             <div className='d-flex gap-2'>
                                                 <div className='timeing_box d-flex justify-content-center align-items-center'>
                                                     <p className='ff_manropw fw-normal text24_2md lh_36 color_white mb-0'>{hours}</p>
                                                 </div>
-                                                <img src={timerDotes} alt="timerDotes" />
                                             </div>
                                         </div>
-                                        <div>
+                                        <div className='d-flex flex-column gap-2 justify-content-center mt-4'>
+                                            <span className='dotes d-inline-block'></span>
+                                            <span className='dotes d-inline-block'></span>
+                                        </div>
+                                        <div className='d-flex flex-column align-items-center'>
                                             <p className='ff_manrope fw-normal text14_xsm lh_21 color_lightGrey mb-1'>Mins</p>
                                             <div className='d-flex gap-2'>
                                                 <div className='timeing_box d-flex justify-content-center align-items-center'>
                                                     <p className='ff_manropw fw-normal text24_2md lh_36 color_white mb-0'>{minutes}</p>
                                                 </div>
-                                                <img src={timerDotes} alt="timerDotes" />
                                             </div>
                                         </div>
-                                        <div>
+                                        <div className='d-flex flex-column gap-2 justify-content-center mt-4'>
+                                            <span className='dotes d-inline-block'></span>
+                                            <span className='dotes d-inline-block'></span>
+                                        </div>
+                                        <div className='d-flex flex-column align-items-center'>
                                             <p className='ff_manrope fw-normal text14_xsm lh_21 color_lightGrey mb-1'>Secs</p>
                                             <div className='timeing_box d-flex justify-content-center align-items-center'>
                                                 <p className='ff_manropw fw-normal text24_2md lh_36 color_white mb-0'>{seconds}</p>
