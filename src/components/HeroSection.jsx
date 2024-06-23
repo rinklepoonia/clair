@@ -32,7 +32,7 @@ function HeroSection() {
                 <li className='list_style_none'><a href="#roadmap" aria-label='roadmap' onClick={() => setnav(!nav)} className='ff_manrope fw_500 text16_sm lh_24 color_gryWhite nav_links transition nav_underline'>Roadmap</a></li>
                 <li className='list_style_none'><a href="#whitepaper" aria-label='white' onClick={() => setnav(!nav)} className='ff_manrope fw_500 text16_sm lh_24 color_gryWhite nav_links transition nav_underline'>White Paper</a></li>
               </ul>
-              <div className='d-flex align-items-center gap-2 d-sm-block d-none'>
+              <div className='d-sm-flex align-items-center gap-2 d-none'>
                 <img className='w_30' src={navImg} alt="navImg" />
                 <div class="dropdown">
                   <span class="dropbtn"><Dropdown /></span>

@@ -43,7 +43,7 @@ function TimerBox() {
         <div className='position-relative pt-xl-5 pt-4'>
             <Container>
                 <div className='d-flex justify-content-center'>
-                    <div data-aos="zoom-in" className='timeBox grident_radius position-relative z-3'>
+                    <div data-aos="zoom-in" className='timeBox bg_cover bg_center  grident_radius position-relative z-3'>
                         <Row className='justify-content-between'>
                             <Col lg={5} className='col-12' >
                                 <div className='d-flex max_w_lg_254 d-flex justify-content-between align-items-center'>

@@ -3,7 +3,8 @@ import { Container } from 'react-bootstrap'
 
 function Footer() {
     return (
-        <div className='footer_padding footer_bg_img'>
+        <div className='footer_padding footer_bg_img position-relative'>
+            <div className='heroEllip_property z-1 start-0 position-absolute top-0'></div>
             <Container>
                 <h4 className='ff_manrope fw-semibold text60_3xl lh_72 color_yellow mb-lg-3 mb-sm-1 mb-0 pb-xl-1 pb-0 text-center'>$CLAIR</h4>
                 <p className='ff_manrope fw-normal text16_sm lh_24 color_lightGrey max_w_626 text-center pb-xl-5 pb-3  mb-0 mx-auto'>In this meme-driven world, laughter is not just a reaction; it's a powerful tool for chang

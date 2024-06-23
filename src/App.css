@@ -144,7 +144,7 @@
 }
 
 .lh_36 {
-    line-height: 36px;
+    line-height: 36px !important;
 }
 
 .lh_48 {
@@ -196,7 +196,7 @@
 }
 
 .border_bottom {
-    border: 1px solid var(--clr-bordergrey);
+    border-bottom: 1px solid var(--clr-bordergrey);
 }
 
 .list_style_none {
@@ -204,7 +204,8 @@
 }
 
 .nav_bg_color {
-    background: var(--clr-navBg);
+    background: transparent;
+    backdrop-filter: blur(6px);
 }
 
 .hero_bg_img {
@@ -610,14 +611,17 @@
 
 .accordion-button {
     background: var(--clr-accBrown) !important;
+    /* background: #ffffff14 !important; */
 }
 
 .accordion-body {
     background: var(--clr-accBrown) !important;
+    /* background: #ffffff14 !important; */
 }
 
 .accordion-item {
     background: var(--clr-accBrown) !important;
+    /* background: #ffffff14 !important; */
 }
 
 .accordion-button {
@@ -844,6 +848,10 @@
         --fs-3xl: 50px;
     }
 
+    .rodmapBox {
+        padding: 24px 92px 24px 24px;
+    }
+
     .socialBox_modifacition {
         padding: 30px;
     }
@@ -888,10 +896,6 @@
         --fs-lg: 32px;
     }
 
-    /* .max_w_810 {
-        max-width: 810px;
-    } */
-
     .btn_modification {
         padding: 12px 24px;
     }
@@ -915,10 +919,6 @@
 
     .SmartContract_padding {
         padding: 128px 0 139px 0;
-    }
-
-    .rodmapBox {
-        padding: 24px 92px 24px 24px;
     }
 
     .input_modification {
