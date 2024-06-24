@@ -8,19 +8,19 @@ import PlusImg from '../assets/images/webp/plus-img.webp'
 
 function Token() {
     return (
-        <div id='token' className='token_bg_img tokenSection_padding neg_margin position-relative mt_45'>
+        <div id='token' className='token_bg_img bg_cover bg_center tokenSection_padding neg_margin position-relative mt_45 z-1'>
             <div className='heroEllip_property position-absolute bottom-0 end-0 z-3'></div>
             <Container>
                 <Row className='flex-lg-row flex-column-reverse'>
                     <Col data-aos="fade-right" lg={5} className='d-flex justify-content-center mt-lg-0 mt-3'>
                         <div className='blank'>
-                            <h3 className='ff_manrope fw-semibold text48_2xl lh_md_57 lh_36 color_white mb-lg-3 mb-0'>Tokenomics</h3>
-                            <div className='d-flex gap-3 mb-lg-4 mb-md-2 mb-2'>
+                            <h3 className='ff_manrope fw-semibold text48_2xl lh_md_57 lh_36 color_white mb-xxl-3 mb-lg-1 mb-0'>Tokenomics</h3>
+                            <div className='d-flex gap-3 mb-xxl-4 mb-md-2 mb-0'>
                                 <p className='ff_manrope fw-normal text24_2md lh_36 color_gryWhite mb-0'>Baby Sinclair</p>
                                 <p className='ff_manrope fw-normal text24_2md lh_36 color_yellow mb-0'>$Clair</p>
                             </div>
                             <p className='ff_manrope fw-medium text16_sm lh_24 color_gryWhite mb-lg-1 mb-0'>Total Tokens</p>
-                            <p className='ff_manrope fe-semibold text40_xl lh_48 color_yellow mb-lg-4 mb-lg-3 mb-2 pb-lg-2 pb-0'>100,000,000,000</p>
+                            <p className='ff_manrope fe-semibold text40_xl lh_48 color_yellow mb-xxl-4 mb-lg-3 mb-md-2 mb-0 pb-xxl-2 pb-0'>100,000,000,000</p>
                             <div className='d-flex gap-3  mb-lg-2 mb-1 pb-lg-1 pb-0'>
                                 <img className='w_36' src={Tokendot} alt="Tokendot" />
                                 <div className='d-flex align-items-baseline gap-3'>
@@ -42,7 +42,7 @@ function Token() {
                                     <p className='ff_manrope fw-normal text16_sm lh_24 color_gryWhite mb-0'>Team - locked for 24 months</p>
                                 </div>
                             </div>
-                            <div className='d-flex gap-3  mb-lg-2 mb-1 pb-lg-1 pb-0'>
+                            <div className='d-flex gap-3 mb-lg-2 mb-1 pb-lg-1 pb-0 align-items-center'>
                                 <img className='w_36' src={Tokendot} alt="Tokendot" />
                                 <div className='d-flex align-items-baseline gap-3'>
                                     <p className='ff_manrope fw-500 text24_2md lh_36 color_gryWhite mb-0'>10%</p>

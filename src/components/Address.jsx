@@ -4,7 +4,7 @@ import { Container } from 'react-bootstrap'
 function Address() {
     return (
         <div id='whitepaper' className='address_bg_img bg_cover bg_center SmartContract_padding position-relative'>
-            <div className='position-absolute heroEllip_property bottom-0 start-0'></div>
+            <div className='position-absolute heroEllip_property bottom-0 start-0 z-2'></div>
             <Container>
                 <h2 data-aos="fade-down" className='ff_manrope fw-semibold text48_2xl lh_md_57 lh_36 color_white text-center mb-lg-4 mb-sm-3 mb-2'><span className='color_yellow'>$CLAIR</span> Smart Contract Address</h2>
                 <div data-aos="zoom-in" className='d-flex justify-content-center mb-sm-4 mb-md-3 mb-2 pb-lg-2 pb-0'>

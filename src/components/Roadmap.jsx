@@ -29,7 +29,7 @@ function Roadmap() {
           </div>
           <div className='position_absolute pos_rodmap_box2'>
             <div className="rodmapBox padding_box2 grident_radius">
-              <p className='ff_manrope fw-medium text32_lg lh_48 color_white ps-2 mb-lg-3 mb-sm-2 mb-0'>Phase 1</p>
+              <p className='ff_manrope fw-medium text32_lg lh_48 color_white ps-2 mb-lg-3 mb-sm-2 mb-0'>Phase 2</p>
               <ul className='mb-0'>
                 <li className='ff_manrope fw-medium text16_sm lh_24 color_gryWhite mb-2 text_nowrap_rodmap'>Official Launch</li>
                 <li className='ff_manrope fw-medium text16_sm lh_24 color_gryWhite mb-2 text_nowrap_rodmap'>Burns 5%</li>
@@ -44,7 +44,7 @@ function Roadmap() {
           </div>
           <div className='position_absolute pos_rodmap_box3'>
             <div className="rodmapBox padding_box3 grident_radius">
-              <p className='ff_manrope fw-medium text32_lg lh_48 color_white ps-2 mb-lg-3 mb-sm-2 mb-0'>Phase 1</p>
+              <p className='ff_manrope fw-medium text32_lg lh_48 color_white ps-2 mb-lg-3 mb-sm-2 mb-0'>Phase 3</p>
               <ul className='mb-0'>
                 <li className='ff_manrope fw-medium text16_sm lh_24 color_gryWhite mb-2 text_nowrap_rodmap'>Burns (5% quarterly)</li>
                 <li className='ff_manrope fw-medium text16_sm lh_24 color_gryWhite mb-2 text_nowrap_rodmap'>Rewards Program</li>

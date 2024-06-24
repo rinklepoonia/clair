@@ -43,7 +43,7 @@ function TimerBox() {
         <div className='position-relative pt-xl-5 pt-4'>
             <Container>
                 <div className='d-flex justify-content-center'>
-                    <div data-aos="zoom-in" className='timeBox bg_cover bg_center  grident_radius position-relative z-3'>
+                    <div data-aos="zoom-in" className='timeBox bg_cover bg_center  grident_radius position-relative z_-1'>
                         <Row className='justify-content-between'>
                             <Col lg={5} className='col-12' >
                                 <div className='d-flex max_w_lg_254 d-flex justify-content-between align-items-center'>
@@ -82,7 +82,7 @@ function TimerBox() {
                                     <div className='position-absolute pos_WhiteRange_line'><img className='max_w_38' src={whiteRange} alt="whiteRange" /></div>
                                 </div>
                                 <p className='ff_manrope fw-normal text14_xsm lh_21 color_lightGrey mt-1 mb-3'>Purchase $Clair fast until the price increase.</p>
-                                <div className='d-flex justify-content-sm-between justify-content-center align-items-center flex-wrap gap-4'>
+                                <div className='d-flex justify-content-sm-between justify-content-center align-items-center flex-wrap gap-2'>
                                     <div className='d-flex gap-2 align-items-center'>
                                         <img src={Watchimg} alt="Watchimg" />
                                         <p className='ff_manrope fw-normal text16_sm lh_20 color_white mb-0'>Price

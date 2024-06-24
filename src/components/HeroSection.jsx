@@ -20,7 +20,8 @@ function HeroSection() {
       <nav className='h_100 d-flex justify-content-center align-items-center border_bottom nav_bg_color'>
         <Container>
           <div className='d-flex align-items-center justify-content-between'>
-            <a href="" aria-label='pagelogo' className='d-flex align-items-center gap-2'>  <img src={pageLogo}
+            <a href="" aria-label='pagelogo' className='d-flex align-items-center gap-2'>
+              <img src={pageLogo}
               alt="pageLogo"
               className='max_w_47' />
               <p className='ff_manrope fw-semibold text32_lg lh_48 color_yellow mb-0'>$CLAIR</p></a>
@@ -53,7 +54,7 @@ function HeroSection() {
       </nav>
       <Container>
         <div className='mx-auto text-center pt-lg-5 pt-3'>
-          <h1 className='ff_manrope fw-bold text60_3xl lh_72 color_white text-center mb-lg-3 mb-sm-1 mb-0'>Presale is <span className='color_yellow'>Live</span></h1>
+          <h1 className='ff_manrope fw-bold text60_3xl lh_sm_72 lh_48 color_white text-center mb-lg-3 mb-1'>Presale is <span className='color_yellow'>Live</span></h1>
           <p className='ff_manrope fw-normal text16_sm lh_24 color_lightWhite max_w_702 text-center mx-auto mb-md-4 mb-2 pb-lg-2 pb-0'>Led by the most advanced AI technology, with a unique burn system to potentially increase its value significantly. Secure your chance to become the next millionaire!</p>
           <div className='max_w_157 text-center mx-auto'>
             <button aria-label='buy clair' className='ff_manrope fw-bold text16_sm lh_24 color_black bg_yellow btn_modification d-flex align-items-center gap-2 text-nowrap'>Buy $Clair
@@ -70,8 +71,8 @@ function HeroSection() {
           alt="heroBottomLayer"
           className='w-100' />
       </div>
-      <div className='position-absolute pos_downArrow d-sm-block d-none'><DownArrow /></div>
-      <div className='heroEllip_property z-1 start-0 position-absolute bottom-0'></div>
+      <div className='position-absolute pos_downArrow d-lg-block d-none'><DownArrow /></div>
+      <div className='heroEllip_property z-1 start-0 position-absolute bottom-0 d-md-block d-none'></div>
     </div>
   )
 }

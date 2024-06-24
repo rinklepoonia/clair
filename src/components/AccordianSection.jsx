@@ -30,12 +30,12 @@ function AccordianSection() {
                     </Accordion.Body>
                 </Accordion.Item>
                     <Accordion.Item data-aos="flip-up" eventKey="3" className='mb-4 p_12'>
-                    <Accordion.Header className='mb-2 pb-1 ff_manrope text16_sm fw-semibold lh_24'>Metus augue dictumst sit amet.</Accordion.Header>
-                    <Accordion.Body className='ff_manrope fw-normal text16_sm lh_24 color_lightGrey max_w_510'>
-                        Built on the Ethereum blockchain and powered by the most advanced
-                        AI technology, Baby Sinclair has the potential to make millions.
-                    </Accordion.Body>
-                </Accordion.Item>
+                        <Accordion.Header className='ff_manrope text16_sm fw-semibold lh_24'>Metus augue dictumst sit amet.?</Accordion.Header>
+                        <Accordion.Body className='mt-2 pt-1 ff_manrope fw-normal text16_sm lh_24 color_lightGrey max_w_510'>
+                            Built on the Ethereum blockchain and powered by the most advanced
+                            AI technology, Baby Sinclair has the potential to make millions.
+                        </Accordion.Body>
+                    </Accordion.Item>
                     <Accordion.Item data-aos="flip-up" eventKey="4" className='mb-4 p_12'>
                     <Accordion.Header className='ff_manrope text16_sm fw-semibold lh_24'>Elementum viverra tellus tincidunt nunc odio at id ipsum.</Accordion.Header>
                         <Accordion.Body className='mt-2 pt-1 ff_manrope fw-normal text16_sm lh_24 color_lightGrey max_w_510'>

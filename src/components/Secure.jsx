@@ -50,28 +50,28 @@ function Secure() {
 
     return (
         <div id='audit' className='security_bg_img bg_cover  bg_center mt_45 secureSection_padding position-relative'>
-            <div className='heroEllip_property position-absolute bottom-0 end-0 z-1'></div>
+            <div className='heroEllip_property position-absolute bottom-0 end-0 z-1 d-lg-block d-none'></div>
             <Container>
                 <Row className='align-items-center'>
                     <Col data-aos="fade-right" lg={6} className='col-12 d-flex justify-content-center mb-lg-0 mb-3'>
                         <div className='position-relative'>
                             <img className='max_w_lg_244 max_w_170' src={SecuareYellowImg} alt="SecuareYellowImg" />
-                            <div className='position-absolute pos_secure_img'><img src={secureImg} alt="secureImg" /></div>
+                            <div className='position-absolute pos_secure_img d-lg-block d-none'><img src={secureImg} alt="secureImg" /></div>
                         </div>
 
                     </Col>
                     <Col data-aos="fade-left" lg={6} className='col-12 d-flex align_items_center justify_content_center'>
                         <div className='blank'>
                             <p className='ff_manrope fw-normal text20_md lh_30 color_gryWhite mb-lg-2 mb-0 text_center'>Rest easy knowing that $CLAIR is </p>
-                            <p className='ff_manrope fw-semibold text32_lg lh_sm_48 lh_30 color_yellow mb-lg-2 mb-0 text_center'>Fully Audited and 100% Secure.</p>
-                            <p className='ff_manrope fw-normal text20_md lh_30 color_gryWhite mb-md-4 mb-3 pb-lg-2 pb-0 text_center'>Zero Room for Rug Pulls: Invest with Confidence.</p>
+                            <p className='ff_manrope fw-semibold text32_lg lh_lg_48 lh_30 color_yellow mb-lg-2 mb-0 text_center'>Fully Audited and 100% Secure.</p>
+                            <p className='ff_manrope fw-normal text20_md lh_30 color_gryWhite mb-xxl-4 mb-2 pb-xxl-2 pb-0 text_center'>Zero Room for Rug Pulls: Invest with Confidence.</p>
                             <div className='text_center'><button aria-label='audit' className='ff_manrope fw-bold text16_sm lh_24 color_lightblack bg_yellow btn_modification'>Audit</button></div>
                         </div>
                     </Col>
                 </Row>
                 <div className='border_bottom_secure'></div>
                 <Row className='pt_lg_61 pt_15'>
-                    <Col data-aos="fade-right" lg={6} className='col-12 d-flex justify-content-end align-items-center'>
+                    <Col data-aos="fade-right" lg={6} className='col-12 d-flex justify-content-lg-end justify-content-center align-items-center'>
                         <div className='blank'>
                             <p className='ff_manrope fw-semibold text32_lg lh_sm_48 lh_36 color_white mb-lg-3 mb-2 text_center'>Listing on <span className='color_yellow'>Major Exchanges</span></p>
                             <p className='ff_marope fw-normal text20_md lh_30 color_gryWhite max_w_475 text_center'>Baby Sinclair’s Team is in action to secure the <span className='color_yellow'>$CLAIR</span> listing on major exchanges. Exciting milestones ahead.</p>
