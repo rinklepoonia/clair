@@ -21,7 +21,7 @@ function HeroSection() {
         <Container>
           <div className='d-flex align-items-center justify-content-between'>
             <a href="" aria-label='pagelogo' className='d-flex align-items-center gap-2'>
-              <img src={pageLogo}
+              <img src={pageLogo} width={47} height={47}
               alt="pageLogo"
               className='max_w_47' />
               <p className='ff_manrope fw-semibold text32_lg lh_48 color_yellow mb-0'>$CLAIR</p></a>
@@ -34,7 +34,7 @@ function HeroSection() {
                 <li className='list_style_none'><a href="#whitepaper" aria-label='white' onClick={() => setnav(!nav)} className='ff_manrope fw_500 text16_sm lh_24 color_gryWhite nav_links transition nav_underline'>White Paper</a></li>
               </ul>
               <div className='d-sm-flex align-items-center gap-2 d-none'>
-                <img className='w_30' src={navImg} alt="navImg" />
+                <img className='w_30' width={32} height={32} src={navImg} alt="navImg" />
                 <div class="dropdown">
                   <span class="dropbtn"><Dropdown /></span>
                   <div class="dropdown-content">
@@ -63,7 +63,7 @@ function HeroSection() {
           </div>
           <img src={HeroCartoon}
             alt="HeroCartoon"
-            className='max_w_810 max_w_330 w-100 h_427' />
+            className='max_w_810 max_w_330 w-100 h_427 mt-2' />
         </div>
       </Container>
       <div className='position-absolute end-0 heroBlackLayer_pos w-100 d-lg-block d-none'>

@@ -9,7 +9,7 @@ function AccordianSection() {
             <h3 className='ff_manrope font-semibold text48_2xl lh_md_57 lh_36 color_white text-center mb-lg-5 mb-4 pb-xl-3 pb-0'>Frequently Asked <span className='color_yellow'>Questions</span></h3>
             <Accordion defaultActiveKey="0" className='max_w_800 mx-auto'>
                     <Accordion.Item data-aos="flip-up" eventKey="0" className='mb-4 p_12'>
-                    <Accordion.Header className='ff_manrope text16_sm fw-semibold lh_24'>WHAT IS $CLAIR?</Accordion.Header>
+                    <Accordion.Header className='ff_manrope text16_sm fw-normal lh_24'>WHAT IS $CLAIR?</Accordion.Header>
                         <Accordion.Body className='mt-2 pt-1 ff_manrope fw-normal text16_sm lh_24 color_lightGrey max_w_510'>
                         Built on the Ethereum blockchain and powered by the most advanced
                         AI technology, Baby Sinclair has the potential to make millions.

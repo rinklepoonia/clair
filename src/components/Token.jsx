@@ -12,12 +12,14 @@ function Token() {
             <div className='heroEllip_property position-absolute bottom-0 end-0 z-3'></div>
             <Container>
                 <Row className='flex-lg-row flex-column-reverse'>
-                    <Col data-aos="fade-right" lg={5} className='d-flex justify-content-center mt-lg-0 mt-3'>
+                    <Col data-aos="fade-right" lg={5} className='col-12 d-flex justify-content-center mt-lg-0 mt-3'>
                         <div className='blank'>
                             <h3 className='ff_manrope fw-semibold text48_2xl lh_md_57 lh_36 color_white mb-xxl-3 mb-lg-1 mb-0'>Tokenomics</h3>
                             <div className='d-flex gap-3 mb-xxl-4 mb-md-2 mb-0'>
                                 <p className='ff_manrope fw-normal text24_2md lh_36 color_gryWhite mb-0'>Baby Sinclair</p>
-                                <p className='ff_manrope fw-normal text24_2md lh_36 color_yellow mb-0'>$Clair</p>
+                                <div className='clair_btn'>
+                                    <p className='ff_manrope fw-normal text24_2md lh_36 color_yellow mb-0'>$Clair</p>
+                                </div>
                             </div>
                             <p className='ff_manrope fw-medium text16_sm lh_24 color_gryWhite mb-lg-1 mb-0'>Total Tokens</p>
                             <p className='ff_manrope fe-semibold text40_xl lh_48 color_yellow mb-xxl-4 mb-lg-3 mb-md-2 mb-0 pb-xxl-2 pb-0'>100,000,000,000</p>

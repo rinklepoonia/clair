@@ -10,7 +10,7 @@ function Roadmap() {
     <div id='roadmap' className='roadmap_bg_img bg_cover bg_center mt_60 position-relative h_1103 pb_40'>
       <div className='heroEllip_property position-absolute bottom-0 end-0 z-1 d-sm-block d-none'></div>
       <Container>
-        <h3 className='ff_manrope fw-semibold text48_2xl lh_57 color_white text-center pt-xxl-5 mt-xl-3 mt_16 mb-xl-0 mb-lg-5 mb-4 neg_margin mt_50'>Roadmap</h3>
+        <h3 className='ff_manrope fw-semibold text48_2xl lh_md_57 lh_36 color_white text-center pt-xxl-5 mt-xl-3 mt_16 mb-xl-0 mb-lg-5 mb-4 neg_margin mt_50'>Roadmap</h3>
         <div className='d-flex justify-content-center gap-3 flex-wrap'>
           <div className='position_absolute pos_rodmap_box1'>
             <div className="rodmapBox padding_box1 grident_radius">

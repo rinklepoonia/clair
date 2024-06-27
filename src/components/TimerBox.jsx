@@ -81,7 +81,7 @@ function TimerBox() {
                                     <div className='position-absolute pos_yellowRange_line'><img className='max_w_38' src={yellowRange} alt="yellowRange" /></div>
                                     <div className='position-absolute pos_WhiteRange_line'><img className='max_w_38' src={whiteRange} alt="whiteRange" /></div>
                                 </div>
-                                <p className='ff_manrope fw-normal text14_xsm lh_21 color_lightGrey mt-1 mb-3'>Purchase $Clair fast until the price increase.</p>
+                                <p className='ff_manrope fw-normal text14_xsm lh_21 color_lightGrey mt-1 pt-1 mb-3'>Purchase $Clair fast until the price increase.</p>
                                 <div className='d-flex justify-content-sm-between justify-content-center align-items-center flex-wrap gap-2'>
                                     <div className='d-flex gap-2 align-items-center'>
                                         <img src={Watchimg} alt="Watchimg" />

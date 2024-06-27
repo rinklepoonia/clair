@@ -14,7 +14,7 @@ function Address() {
                     </div>
                 </div>
                 <div data-aos="fade-down" className='mx-auto text-center max_w_90 d-md-none d-block mb-md-0 mb-2'><button className='ff_manrope fw-bold text16_sm lh_24 color_lightblack bg_yellow btn_modification'>Copy</button></div>
-                <p data-aos="fade-down" className='ff_manrope fw-normal text16_sm lh_24 color_lightGrey text-center max_w_806 mx-auto mb-0'>Built on the Ethereum blockchain and powered by the most advanced AI technology, Baby Sinclair has the potential to make millions in both early stages and long-term investment. Our strategic burn system, which will burn millions of $CLAIR quarterly, aims to increase its value significantly. Don't miss out! Get in early and secure your chance to become the next millionaire.</p>
+                <p data-aos="fade-down" className='ff_manrope fw-normal text16_sm lh_24 color_lightGrey text-center max_w_806 mx-auto mb-0'>Built on the Ethereum blockchain and powered by the most advanced AI technology, Baby Sinclair has the <span className='d-lg-block d-none'>potential to make millions in both early stages and long-term investment. Our strategic burn system, which</span> will burn millions of $CLAIR quarterly, aims to increase its value significantly. Don't miss out! Get in early and secure your chance to become the next millionaire.</p>
             </Container>
         </div>
     )
