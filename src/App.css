@@ -175,9 +175,6 @@
   max-width: 157px;
 }
 
-/* .max_w_330 {
-    max-width: 330px;
-} */
 .max_w_810 {
   max-width: 810px;
 }
@@ -304,7 +301,7 @@
 
 .pos_yellowRange_line {
   top: -25px;
-  left: 90px;
+  left: 130px;
 }
 
 .pos_WhiteRange_line {
@@ -757,14 +754,42 @@
 .nav_underline:hover {
   color: var(--clr-yellow);
 }
+input[type="range"] {
+  overflow: hidden;
+  width: 100%;
+  max-width: 404px;
+  height: 22px;
+  -webkit-appearance: none;
+  background-color: white;
+  border-radius: 125px;
+}
 
+input[type="range"]::-webkit-slider-runnable-track {
+  height: 10px;
+  -webkit-appearance: none;
+  color: #13bba4;
+  margin-top: -1px;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  width: 26px;
+  height: 26px;
+  background-image: url(./assets/images/svg/range-slider.svg) !important;
+  -webkit-appearance: none;
+  cursor: ew-resize;
+  background: #434343;
+  margin-top: -8px;
+  position: relative;
+  z-index: 10;
+  border-radius: 50%;
+  box-shadow: -220px 0 0 200px yellow;
+}
 @media (max-width: 991.99px) {
-  .z_-1 {
-    z-index: -1;
-  }
-
   .z_6 {
     z-index: 6;
+  }
+  .z_3 {
+    z-index: 3;
   }
 
   .overflow_hidden {
@@ -868,6 +893,9 @@
   .padding_box3 {
     padding: 10px 0 10px 10px;
   }
+  .pos_yellowRange_line {
+    left: 56px;
+  }
 }
 
 @media (min-width: 576px) {
@@ -909,10 +937,6 @@
     text-wrap: nowrap;
   }
 
-  .pos_yellowRange_line {
-    left: 125px;
-  }
-
   .pos_WhiteRange_line {
     right: 40px;
   }
@@ -921,6 +945,18 @@
 @media (min-width: 576px) and (max-width: 992px) {
   .neg_margin {
     margin-top: -25px;
+  }
+  .pos_WhiteRange_line {
+    right: 18%;
+  }
+  .padding_end {
+    padding-right: 105px;
+  }
+  .padding_start {
+    padding-left: 106px;
+  }
+  .pos_yellowRange_line {
+    left: 171px;
   }
 }
 
@@ -1071,13 +1107,16 @@
   .max_w_404 {
     max-width: 404px;
   }
+  /* input[type="range"] {
+    max-width: 404px;
+  } */
 }
 
 @media (min-width: 1200px) {
   .pos_aboutGhost {
-  right: 15%;
-  bottom: 12px;
-}
+    right: 15%;
+    bottom: 12px;
+  }
   .h_1103 {
     height: 1080px;
   }
