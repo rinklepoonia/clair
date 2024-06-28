@@ -6,8 +6,6 @@ import tlogo from "../assets/images/svg/t-logo.svg";
 import logo3 from "../assets/images/svg/eth-3-logo.svg";
 import logo4 from "../assets/images/svg/4-logo.svg";
 import Watchimg from "../assets/images/svg/timer-svg.svg";
-import timerDotes from "../assets/images/svg/timer-dotes.svg";
-import rangeSlider from "../assets/images/webp/range-slider-img.webp";
 import yellowRange from "../assets/images/webp/range-yellow-arrow.webp";
 import whiteRange from "../assets/images/webp/range-white-arrow.webp";
 
@@ -38,10 +36,10 @@ function TimerBox() {
   const hours = Math.floor((timeInSeconds % (3600 * 24)) / 3600);
   const minutes = Math.floor((timeInSeconds % 3600) / 60);
   const seconds = timeInSeconds % 60;
-  const [sliderValue, setSliderValue] = useState(50); // Initial slider value
+  const [sliderValue, setSliderValue] = useState(50);
 
   const handleSliderChange = (event) => {
-    setSliderValue(event.target.value); // Update slider value when changed
+    setSliderValue(event.target.value); 
   };
 
   return (
